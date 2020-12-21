@@ -1,17 +1,21 @@
 .sidebarChat{
     display: flex;
-    height: 50px;
-    margin: 10px 0 15px 0;
-    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
 }
 
 .sidebarChat__avatar{
     margin-left: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: black
+}
+
 .sidebarChat:hover{
-    background: #b3aea7;
-    color: white;
+    background: #ddd9d9;
     cursor: pointer;
 }
 
@@ -21,4 +25,5 @@
 
 .sidebarChat__info > h2{
     font-size: 16px;
+    margin-bottom: 8px;
 }
